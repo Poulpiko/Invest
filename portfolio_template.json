@@ -1,0 +1,32 @@
+{
+    "portfolio": [
+        {
+            "NOM": "Amundi PEA MSCI Emerging Markets ESG Leaders UCITS ETF - EUR (C/D) (PAEEM)",
+            "CODE": "PAEEM.PA",
+            "Nombre": 1000,
+            "Prix unitaire": 24.419,
+            "Poids cible": 0.2
+        },
+        {
+            "NOM": "BNP PARIBAS EASY S&P 500 UCITS ETF - CEUR ACC (ESE)",
+            "CODE": "ESE.PA",
+            "Nombre": 1000,
+            "Prix unitaire": 27.2929,
+            "Poids cible": 0.1
+        },
+        {
+            "NOM": "BNP PARIBAS EASY STOXX EUROPE 600 UCITS ETF - C ACC (ETZ)",
+            "CODE": "ETZ.PA",
+            "Nombre": 1000,
+            "Prix unitaire": 17.6,
+            "Poids cible": 0.3
+        },
+        {
+            "NOM": "iShares MSCI World Swap PEA UCITS ETF (WPEA)",
+            "CODE": "WPEA.PA",
+            "Nombre": 1000,
+            "Prix unitaire": 5.6273,
+            "Poids cible": 0.4
+        }
+    ]
+}
