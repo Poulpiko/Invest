@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Remplacez par votre clé API Alpha Vantage
+# Clé API Alpha Vantage
 api_key = os.getenv('API_KEY')
 
 def get_stock_price(symbol):
