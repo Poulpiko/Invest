@@ -201,7 +201,7 @@ def rebalance_portfolio(portfolio_data, method='SLSQP', objective='kl_divergence
             name = stock['NOM']
             row = portfolio[portfolio['NOM'] == name]
             if not row.empty:
-                stock['NB'] = int(row['Nombre à acheter/vendre'].values[0] + stock['NB'])
+                stock['Nombre'] = int(row['Nombre à acheter/vendre'].values[0] + stock['Nombre'])
 
         with open('portfolio.json', 'w') as f:
             json.dump(portfolio_data, f, indent=4, default=lambda x: int(x) if isinstance(x, np.integer) else x)
